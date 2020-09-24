@@ -24,7 +24,7 @@ import { glob } from "../internal/util/glob";
 import { getCompilersDir } from "../internal/util/global-dir";
 import { pluralize } from "../internal/util/strings";
 import { unsafeObjectEntries, unsafeObjectKeys } from "../internal/util/unsafe";
-import { SolcInput } from "../types";
+import { SolcInput } from "../types/solidity";
 
 import {
   TASK_COMPILE,
